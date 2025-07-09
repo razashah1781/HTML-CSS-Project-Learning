@@ -1,0 +1,53 @@
+label, input, select, textarea, legend{
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+
+input[type="radio"], input[type="checkbox"]{
+  display: inline-block;
+  width :1rem;
+}
+
+body{
+  font-family: sans;
+  background-color: #E7C8DD;
+  color : #5B2333;
+}
+
+h1,p{
+  text-align: center;
+}
+
+form{
+  margin:0 auto;
+  background-color: #E2E4F6;
+  width: 60vw;
+  padding-bottom: 3rem;
+  border-radius: 20px;
+}
+
+fieldset{
+  border:none;
+}
+
+input[type="text"], input[type="email"], input[type="number"], select, #nah, #ruby, #bio{
+  margin-bottom: 2rem;
+}
+input[type="text"], input[type="email"], input[type="number"], select{
+  height:2rem;
+}
+input, select, textarea{
+  width: 80%;
+  border: 1px solid #5C6D70;
+  border-radius: 5px;
+  background-color:#FDE74C;
+}
+
+#submit{
+  height: 3rem;
+  width: 40%;
+  font-size: 30px;
+  background-color:#E7C8DD;
+}
+

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Survey Form</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Please fill out this form with accurate and relevant information</p>
+    <form id="survey-form" method="post">
+      <fieldset>
+        <label for="name" id="name-label">Name <input type="text" id="name" name="name" placeholder="Enter your name" required /></label>
+        <label for="email" id="email-label">Email <input type="email" id="email" name="mail" placeholder="Enter your email" required /></label>
+        <label for="number" id="number-label">Age (optional) <input id="number" type="number" min="13" max="120" placeholder="13-120" /></label>
+
+        <label for="dropdown"> Occupation<select id="dropdown">
+          <option value="">(Select an option) </option>
+          <option value="1">Student</option>
+          <option value="2">Undergraduate</option>
+          <option value="3">Graduate</option>
+          <option value="4">Teacher</option>
+          <option value="5">Professor</option>
+          <option value="6">Em*loyed</option>
+        </select>
+        </label>
+      </fieldset>
+      <fieldset id="freak">
+        <legend>You a freak lowk?</legend>
+        <label for="Yuh">Yuh <input id="Yuh" type="radio" name="freak" value="yes" checked />
+        <label for="nah">Nah <input id="nah" type="radio" name="freak" value="no"/>        
+      </fieldset>
+
+      <fieldset id="languages">
+        <legend>What languages do you want to learn?</legend>
+        <label for="c++">C++ <input id="c++" type="checkbox" value="1"></label>
+        <label for="Python">Python <input id="Python" type="checkbox" value="2"></label>
+        <label for="js">JavaScript <input id="js" type="checkbox" value="3"></label>
+        <label for="react">React <input id="react" type="checkbox" value="4"></label>
+        <label for="rust">Rust <input id="rust" type="checkbox" value="5"></label>
+        <label for="ruby">Ruby <input id="ruby" type="checkbox" value="6"></label>
+        <label for="bio">Bio <textarea id="bio" rows="8" cols="30" placeholder="My name is..."></textarea>
+      </fieldset>
+      <input id="submit" type="submit" value="SUBMIT">
+    </form>
+  </body>
+</html>
