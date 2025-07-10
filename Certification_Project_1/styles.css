@@ -10,7 +10,7 @@ input[type="radio"], input[type="checkbox"]{
 }
 
 body{
-  font-family: sans;
+  font-family: 'Inter', sans-serif;
   background-color: #E7C8DD;
   color : #5B2333;
 }
