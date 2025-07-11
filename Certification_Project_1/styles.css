@@ -25,6 +25,12 @@ form{
   width: 60vw;
   padding-bottom: 3rem;
   border-radius: 20px;
+  box-shadow: 0 4px 12px #5B2333;
+  transition : 0.3s;
+}
+form:hover{
+  transform: scale(1.01);
+  opacity: 90%;
 }
 
 fieldset{
@@ -49,5 +55,12 @@ input, select, textarea{
   width: 40%;
   font-size: 30px;
   background-color:#E7C8DD;
+  cursor:pointer;
+  transition: 0.3s;
+}
+#submit:hover{
+  opacity : 90%;
+  transform: scale(1.05);
+  color: #FFA2C3;
 }
 
