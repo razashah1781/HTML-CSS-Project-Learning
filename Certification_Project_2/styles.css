@@ -14,6 +14,14 @@ header{
   justify-content: space-between;
   align-items: center;
   top: 0;
+  background-color: #141115;
+  border-radius: 15px;
+  padding: 0 1rem;
+  transition : 0.5s;
+}
+
+header:hover{
+  transform: scale(1.02);
 }
 
 header > ul{
@@ -30,7 +38,7 @@ header > ul > li {
   margin: 0 0.2rem;
   padding: 0.2rem;
   display: block;
-  transition : 0.3s;
+  transition : 0.5s;
 }
 header > ul > li:hover {
   background-color: #969696;
