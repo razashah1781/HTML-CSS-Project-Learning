@@ -61,7 +61,6 @@ nav>ul>li{
 nav>ul>li:hover{
   border-bottom: none;
   transform: scale(1.05);
-  transform: rotate(3deg);
 }
 
 section{
