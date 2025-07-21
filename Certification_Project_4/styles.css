@@ -1,0 +1,104 @@
+*{
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body{
+  background-color: #1F271B;
+  color: #C9CBA3;
+  font-family: oxygen;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.logo{
+  display:flex;
+}
+
+li{
+  display: block;
+  margin-left: 1rem;
+}
+
+ul{
+  width:100%;
+  display:flex;
+}
+
+a{
+  text-decoration: none;
+  color: #C9CBA3;
+  transition: 0.5s;
+}
+
+a:hover{
+  background-color: #8B2635;
+  padding:0.25rem;
+}
+
+header{
+  position: fixed;
+  width: 95%;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  z-index: 1;
+  background-color: #177E89;
+  border-radius: 30px;
+  padding-right: 1rem;
+  transition: 0.5s
+}
+
+header:hover{
+  transform: scale(1.02);
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#email{
+  height: 2rem;
+  width: 100%;
+  border-radius: 20px;
+  background-color: #C9CBA3;
+  border: none;
+    opacity: 70%;
+  transition: 0.5s;
+}
+
+#email:hover{
+  transform: scale(1.02);
+  opacity: 100%;
+}
+
+main{
+  padding-top: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.benefit{
+  display: flex;
+  height: 6rem;
+  justify-content: flex-start;
+  align-items: spac;
+  background-color: #8B2635;
+  padding: 1rem;
+  margin: 3rem 0;
+  border-radius: 60px;
+  transition: 0.5s;
+}
+
+.benefit:hover{
+  transform: scale(1.02);
+}
+
+
