@@ -1,4 +1,5 @@
 # freeCodeCamp Responsive Web Design Projects
+![Responsive Web Design Certification](https://img.shields.io/badge/freeCodeCamp-Responsive%20Web%20Design-brightgreen?logo=freecodecamp)
 
 This repository contains all the projects I completed as part of the **Responsive Web Design Certification** offered by [freeCodeCamp](https://www.freecodecamp.org/). These projects focus on building responsive and accessible websites using only **HTML** and **CSS** — no JavaScript involved.
 
